@@ -1,6 +1,6 @@
 ---
 # try also 'default' to start simple
-theme: default
+theme: seriph
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: https://cover.sli.dev
@@ -125,7 +125,7 @@ ssaa
 
 ### sss
 
-<img v-drag="[187,133,652,135]" src="./components/images/150035.png">
+<img v-drag="[85,319,779,138]" src="./components/images/150035.png">
 
 ---
 layout: two-cols
@@ -189,18 +189,58 @@ doubled.value = 2
 }
 </style>
 
+---
+layout: image-right
+image: "./public/1.jpg"
+---
+
+# sss
+
+---
+layout: image-left
+image: ./public/1.jpg
+---
+
+# Left image
+
+
+<kbd>Time to go back home</kbd>
+
+<p class="text-5xl italic hover:not-italic">swa</p>
+
+<br>
+
+<span class="bg-blue-400 rounded-full hover:bg-purple-500 text-white font-bold py-2 px-4 transition-colors duration-300 cursor-pointer"> 
+  Button
+</span>
+
+---
+layout: quote
+---
+
+> # 1.「醫學是不確定性的科學，與可能性的藝術。」
+> #
+> # —— 威廉·奧斯勒 (William Osler)
+> <br> 
+> <br> 
+>
+> # 2. 「永遠保持謙卑，對病人有最大的敬意」
+>
+> # —— R2施朝貴(GueiGuei)
+
 <!--
-Notes can also sync with clicks
+我想要照看看會在哪個md種 
 
-[click] This will be highlighted after the first click
-
-[click] Highlighted with `count = ref(0)`
-
-[click:3] Last click (skip two clicks)
+你好這個是我的測試
 -->
 
 ---
-level: 2
+layout: intro
+---
+
+# INTRO
+SSS
+
 ---
 
 # Shiki Magic Move
@@ -660,4 +700,3 @@ SSSS
 ---
 src: ./lab.md
 ---
-

@@ -84,7 +84,7 @@ layout: default
 ### 尿液分析 (U/A)
 | 項目 | 數值 | 臨床意義 |
 | :--- | :--- | :--- |
-| **SG** | <span style="color:red">**>= 1.050**</span> | Highly concentrated |
+| **SG** | <span style="color:red" v-mark.circle.green>**>= 1.050**</span> | Highly concentrated |
 | **Protein** | <span style="color:red">**3+**</span> | Proteinuria |
 | **Glucose** | <span style="color:red">**2+**</span> | Glycosuria |
 | **Blood** | <span style="color:red">**2+**</span> | Hematuria |
@@ -116,7 +116,7 @@ layout: default
 ---
 
 <div class="relative z-20">
-  <h1>2020 CT Scan</h1>
+  <h1>1996 head CT</h1>
 </div>
 
 <CTScanner 
@@ -131,3 +131,9 @@ h1 {
   color: white
 }
 </style>
+
+---
+
+# Plan
+1. diagnosis
+2. <span v-mark.underline>test</span>
