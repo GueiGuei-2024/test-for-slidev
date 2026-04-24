@@ -2,8 +2,7 @@ name: Deploy Slidev to Pages
 
 on:
   push:
-    branches: [ main ] # 或者是你的預設分支名稱
-
+    branches: [ main ] 
 permissions:
   contents: read
   pages: write
@@ -34,7 +33,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'dist' # Slidev 預設輸出的資料夾
+          path: 'dist' 
 
       - name: Deploy to GitHub Pages
         id: deployment
