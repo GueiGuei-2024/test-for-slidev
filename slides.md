@@ -191,14 +191,14 @@ doubled.value = 2
 
 ---
 layout: image-right
-image: "./public/1.jpg"
+image: "1.jpg"
 ---
 
 # sss
 
 ---
 layout: image-left
-image: ./public/1.jpg
+image: 1.jpg
 ---
 
 # Left image
