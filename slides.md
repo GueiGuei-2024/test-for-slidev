@@ -1,6 +1,6 @@
 ---
 # try also 'default' to start simple
-theme: seriph
+theme: default
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: https://cover.sli.dev
@@ -87,7 +87,7 @@ Here is another comment.
 -->
 
 ---
-transition: slide-up
+transition: slide-left
 level: 2
 ---
 
@@ -101,7 +101,7 @@ Hover on the bottom-left corner to see the navigation's controls panel, [learn m
 | --------------------------------------------------- | --------------------------- |
 | <kbd>right</kbd> / <kbd>space</kbd>                 | next animation or slide     |
 | <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd>                                       | previous slide              |
+| <kbd>up</kbd>          <kbd>s</kbd>                  | previous slide              |
 | <kbd>down</kbd>                                     | next slide                  |
 
 <!-- https://sli.dev/guide/animations.html#click-animation -->
@@ -112,6 +112,20 @@ Hover on the bottom-left corner to see the navigation's controls panel, [learn m
   alt=""
 />
 <p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
+
+---
+transition: slide-left
+---
+
+# AKI 
+Definition: acute renal failure 
+
+## Saa
+ssaa
+
+### sss
+
+<img v-drag="[187,133,652,135]" src="./components/images/150035.png">
 
 ---
 layout: two-cols
@@ -635,3 +649,15 @@ class: text-center
 [Documentation](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/resources/showcases)
 
 <PoweredBySlidev mt-10 />
+
+---
+src: ./another.md
+---
+
+# SS
+SSSS
+
+---
+src: ./lab.md
+---
+
