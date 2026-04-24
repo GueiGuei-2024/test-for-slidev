@@ -70,7 +70,7 @@ const props = defineProps({
   // 左下角顯示的文字標籤
   label: {
     type: String,
-    default: 'Depth Control'
+    default: 'SLICE'
   }
 })
 
