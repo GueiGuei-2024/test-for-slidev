@@ -78,7 +78,7 @@ const currentIndex = ref(0)
 
 // 計算最終圖片路徑
 const imagePath = computed(() => {
-  return `/${props.folder}/${props.prefix}${currentIndex.value}.${props.ext}`
+  return `./${props.folder}/${props.prefix}${currentIndex.value}.${props.ext}`
 })
 
 const handleWheel = (event) => {
